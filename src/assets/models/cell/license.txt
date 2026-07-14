@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cell
+* source:	https://sketchfab.com/3d-models/cell-e25801668b264cb7acb64f05a5f26725
+* author:	zames1992 (https://sketchfab.com/zames1992)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cell" (https://sketchfab.com/3d-models/cell-e25801668b264cb7acb64f05a5f26725) by zames1992 (https://sketchfab.com/zames1992) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
