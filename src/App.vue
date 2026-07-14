@@ -1,11 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import EarthComponent from './components/EarthComponent.vue'
+import IntroComponent from './components/IntroComponent.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <EarthComponent />
+  <IntroComponent />
 </template>
 
-<style scoped></style>
+<style>
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+</style>
