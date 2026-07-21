@@ -23,5 +23,11 @@ body,
 #app {
   margin: 0;
   min-height: 100%;
+  background-color: #000;
+}
+.section {
+  height: 100dvh;
+  width: 100%;
+  scroll-snap-align: start;
 }
 </style>

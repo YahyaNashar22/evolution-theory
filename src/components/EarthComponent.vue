@@ -91,7 +91,7 @@ watch(
 </script>
 
 <template>
-  <section class="earth-section">
+  <section class="earth-section section">
     <TresCanvas clear-color="#00000000">
       <TresPerspectiveCamera ref="camera" :position="cameraPosition" :look-at="[0, 0, 0]" />
 
@@ -110,10 +110,7 @@ watch(
 
 <style scoped>
 .earth-section {
-  width: 100%;
-  height: 100vh;
   filter: blur(4px);
-  scroll-snap-align: start;
   background-image: url('../assets/backgrounds/stars_bg.jpg');
   background-size: cover;
   background-position: center;

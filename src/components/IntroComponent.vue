@@ -46,12 +46,12 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div id="intro">
+  <section class="section" id="intro">
     <div class="masked-text-container" ref="sectionRef">
       <h1 class="masked-text" id="evolution-text" ref="firstTextRef">Evolution</h1>
       <h1 class="masked-text" id="mutation-text" ref="secondTextRef">Mutation</h1>
     </div>
-  </div>
+  </section>
 </template>
 
 <style scoped>
@@ -62,8 +62,6 @@ onUnmounted(() => {
   justify-content: center;
 
   background-color: #0c0c0c;
-  height: 100vh;
-  scroll-snap-align: start;
 }
 
 .masked-text {

@@ -8,7 +8,7 @@ function handleButtonPressed() {
 }
 </script>
 <template>
-  <div class="wrapper">
+  <section class="wrapper section">
     <button @click="handleButtonPressed">
       <span></span>
       <span></span>
@@ -16,7 +16,7 @@ function handleButtonPressed() {
       <span></span>
       Enter The Matrix
     </button>
-  </div>
+  </section>
 </template>
 
 <style scoped>
@@ -25,8 +25,6 @@ function handleButtonPressed() {
   justify-content: center;
   align-items: center;
 
-  width: 100%;
-  height: 100dvh;
   background-color: #0c0c0c;
   scroll-snap-align: start;
 }
