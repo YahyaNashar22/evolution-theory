@@ -2,9 +2,10 @@
 import gsap from 'gsap'
 import { TextPlugin } from 'gsap/all'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
+import { SplitText } from 'gsap/SplitText'
 import { RouterView } from 'vue-router'
 
-gsap.registerPlugin(TextPlugin, ScrollTrigger)
+gsap.registerPlugin(TextPlugin, ScrollTrigger, SplitText)
 </script>
 
 <template>
